@@ -48,7 +48,7 @@ public class IKDDhw2 {
 	        	 public int compare(Tuple_info t1, Tuple_info t2) {
 	        	  return t2.compareTo(t1);
 	        	 }   
-	        });
+	        	});
 			
 			// Show the result in the table form
 			JTable table=new JTable(new TableModel(tuples));
