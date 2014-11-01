@@ -38,7 +38,7 @@ public class IKDDhw2 {
 			ResultSet rs = stmt.executeQuery(SQL);
 			while ( rs.next() ) {
 				tuples.add(new Tuple_info(Long.parseLong( rs.getString("user_id") ), rs.getString("text"), rs.getString("user_name")));
-			}
+			};
 			rs.close();
 			stmt.close();
 			
